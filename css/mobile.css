@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(../fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Mazius;
+    src: url(../fonts/Mazius.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.line-parent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.line-parent .line-child {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+#splash-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+#splash-loader .animation-text {
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animation-text .top-text {
+    font-family: Gilroy-SemiBold;
+    font-size: .7rem;
+    letter-spacing: 1px;
+}
+
+
+#splash-loader .splash-loader-bg {
+    background: #161616;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#splash-loader .splash-loader-bg:nth-child(2) {
+    z-index: 3;
+}
+
+#splash-loader .splash-loader-bg:nth-child(3) {
+    background-color: #14cf93;
+    z-index: 1;
+    transition-delay: .8;
+}
+
+.splash-main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 6vw;
+    white-space: nowrap;
+    font-family: Gilroy-Medium;
+}
+
+.splash-main-text .special {
+    color: #14cf93;
+    font-family: Mazius;
+}
+
+.splash-main-text span:nth-child(3), 
+.splash-main-text span:nth-child(4) {
+    display: inline-block;
+}
