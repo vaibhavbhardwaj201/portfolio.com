@@ -25,6 +25,34 @@ html {
     width: 100%;
 }
 
+body {
+    background-color: #151515;
+}
+
+nav {
+    position: fixed;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0 7vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    letter-spacing: 1px;
+}
+
+.o-desktop {
+    display: none;
+}
+
 .line-parent {
     display: block;
     width: 100%;
@@ -51,7 +79,7 @@ html {
 
 #splash-loader .animation-text {
     position: absolute;
-    top: 3vh;
+    top: 5vw;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;

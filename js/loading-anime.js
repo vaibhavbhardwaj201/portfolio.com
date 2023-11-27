@@ -6,7 +6,7 @@ tl
 .from(".splash-main-text span:nth-child(1),.splash-main-text span:nth-child(2)", {
     duration: 0.3,
     delay: 0.5,
-    ease: "power1.out",
+    ease: "sine.out",
     x: "5%",
 })
 .from(".splash-main-text span:nth-child(3)", {
@@ -39,4 +39,7 @@ tl
     delay: -0.9,
     y: "-100%",
     ease: "circ.inOut"
+})
+.to("#splash-loader", {
+    display: "none",
 })
