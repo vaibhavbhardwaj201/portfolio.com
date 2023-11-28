@@ -64,7 +64,6 @@ nav a {
     display: block;
     width: 100%;
     height: 100%;
-    color: #fff;
 }
 
 #splash-loader {
@@ -133,4 +132,78 @@ nav a {
 .splash-main-text span:nth-child(3), 
 .splash-main-text span:nth-child(4) {
     display: inline-block;
+}
+
+
+/* Hero Section */
+
+#hero {
+        padding: 16vh 0 22vh;
+        margin: 0 7vw;
+    }
+
+    .title-row {
+        display: flex;
+        color: #fff;
+    }
+
+    .title-row .hero-title {
+        font-size: 78px;
+        font-family: "Gilroy-Medium";
+        font-weight: normal;
+        letter-spacing: -4px;
+    }
+
+
+
+    .title-row .right-info {
+        display: flex;
+        padding-left: calc(11.32813vw - 35px);
+        padding-top: 3.9%;
+        white-space: nowrap;
+        color: #a2a2a2;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .title-row > .h-o-desktop {
+        display: none;
+    }
+
+    .right-info .freelance-info {
+        margin-right: 10vw;
+    }
+    .freelance-info .info-text {
+        display: block;
+    }
+
+    .freelance-info .info-text .info-text-design {
+        display: inline-block;
+        font-family: 'Mazius';
+    }
+
+    .freelance-info .info-text-l {
+        display: block;
+    }
+
+    .right-info .local-time .local > span {
+        height: inherit;
+        /* display: inline; */
+    }
+
+
+    .title-svg svg {
+        width: 210px;
+    }
+    
+
+
+    /* Screen size more then 320px */
+
+@media screen and (min-width: 320px) {
+    
+    .title-row .hero-title {
+        font-size: calc(11.60714vw + 40.85714px);
+    }
+        
 }

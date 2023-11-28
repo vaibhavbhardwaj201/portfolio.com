@@ -23,22 +23,22 @@ tl
     opacity: 0,
     x: "100%",
 })
-.to(".line-parent .line-child", {
+.to("#splash-loader .line-parent .line-child", {
     duration: 1.2,
     y: "-110%",
     ease: "expo.out",
 })
 .to(".splash-loader-bg:nth-child(2)", {
-    duration: 1.2,
+    duration: 1.4,
     delay: -0.6,
     y: "-100%",
     ease: "Expo.inOut"
 })
 .to(".splash-loader-bg:nth-child(3)", {
-    duration: 0.9,
+    duration: 1,
     delay: -0.9,
     y: "-100%",
-    ease: "circ.inOut"
+    ease: "sine.inOut"
 })
 .to("#splash-loader", {
     display: "none",

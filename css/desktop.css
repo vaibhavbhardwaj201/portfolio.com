@@ -6,6 +6,7 @@
 
     nav {
         top: 6.5vh;
+        padding: 0 5vw;
     }
 
     nav a {
@@ -24,4 +25,58 @@
     .splash-main-text {
         font-size: 4rem;
     }
+
+
+    /* Hero section for desktop */
+    #hero {
+        padding: 24vw 0 0;
+        margin: 0 5vw;
+    }
+
+    .title-row {
+        display: flex;
+        color: #383838;
+    }
+
+    .title-row .hero-title {
+        font-size: calc(12.10938vw + 15px);
+        font-family: "Gilroy-Medium";
+        font-weight: normal;
+        letter-spacing: -4px;
+    }
+
+    .h-o-desktop {
+        display: flex;
+    }
+
+    .title-row .right-info {
+        display: flex;
+        padding-left: calc(11.32813vw - 35px);
+        padding-top: 3.9%;
+        white-space: nowrap;
+        color: #a2a2a2;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .right-info .freelance-info {
+        margin-right: 10vw;
+    }
+    .freelance-info .info-text {
+        display: block;
+    }
+
+    .freelance-info .info-text .info-text-design {
+        display: inline-block;
+    }
+
+    .freelance-info .info-text-l {
+        display: block;
+    }
+
+    .right-info .local-time .local > span {
+        height: inherit;
+        /* display: inline; */
+    }
+
 }
