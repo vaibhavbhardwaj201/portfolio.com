@@ -4,6 +4,14 @@
         background-color: #fcfaf8;
     }
 
+    .o-mobile {
+        display: none;
+    }
+
+    .o-desktop {
+        display: block;
+    }
+
     nav {
         top: 6.5vh;
         padding: 0 5vw;
@@ -14,9 +22,7 @@
         text-decoration: none;
     }
 
-    .o-desktop {
-        display: block;
-    }
+    
 
     #splash-loader .animation-text {
         top: 6.4vw;
@@ -29,7 +35,7 @@
 
     /* Hero section for desktop */
     #hero {
-        padding: 24vw 0 0;
+        padding: 24vh 0 0;
         margin: 0 5vw;
     }
 
@@ -40,7 +46,6 @@
 
     .title-row .hero-title {
         font-size: calc(12.10938vw + 15px);
-        font-family: "Gilroy-Medium";
         font-weight: normal;
         letter-spacing: -4px;
     }
@@ -52,7 +57,7 @@
     .title-row .right-info {
         display: flex;
         padding-left: calc(11.32813vw - 35px);
-        padding-top: 3.9%;
+        padding-top: 3.18%;
         white-space: nowrap;
         color: #a2a2a2;
         font-size: 12px;
@@ -61,9 +66,14 @@
 
     .right-info .freelance-info {
         margin-right: 10vw;
+        font-family: "Gilroy-Medium";
     }
     .freelance-info .info-text {
         display: block;
+    }
+
+    .right-info .local-time {
+        font-family: "Gilroy-Medium";
     }
 
     .freelance-info .info-text .info-text-design {
@@ -77,6 +87,30 @@
     .right-info .local-time .local > span {
         height: inherit;
         /* display: inline; */
+    }
+
+    .title-row:nth-child(2) {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .col {
+        flex-direction: row;
+    }
+
+    .title-row .title-svg {
+        width: 50%;
+        align-items: flex-end;
+        justify-content: space-between;
+        transform: translateY(10%);
+    }
+
+    .title-svg img {
+        width: 4vw;
+    }
+
+    .title-svg svg {
+        width: calc(22.46094vw + 37.5px);
     }
 
 }

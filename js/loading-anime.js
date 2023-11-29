@@ -35,7 +35,7 @@ tl
     ease: "Expo.inOut"
 })
 .to(".splash-loader-bg:nth-child(3)", {
-    duration: 1,
+    duration: .9,
     delay: -0.9,
     y: "-100%",
     ease: "sine.inOut"

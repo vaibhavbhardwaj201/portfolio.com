@@ -29,6 +29,10 @@ body {
     background-color: #151515;
 }
 
+.o-mobile {
+    display: block;
+}
+
 nav {
     position: fixed;
     top: 5vh;
@@ -46,7 +50,7 @@ nav a {
     font-size: 12px;
     text-transform: uppercase;
     /* text-decoration: none; */
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .o-desktop {
@@ -152,6 +156,7 @@ nav a {
         font-family: "Gilroy-Medium";
         font-weight: normal;
         letter-spacing: -4px;
+        line-height: 100%;
     }
 
 
@@ -182,18 +187,36 @@ nav a {
         font-family: 'Mazius';
     }
 
-    .freelance-info .info-text-l {
-        display: block;
-    }
-
     .right-info .local-time .local > span {
         height: inherit;
         /* display: inline; */
     }
 
+    .title-svg {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .title-svg .des-line {
+        width: 15vw;
+        height: 6px;
+        background-color: #14cf93;
+        margin: 2px 3vw 0 0;
+        transform-origin: left;
+    }
 
     .title-svg svg {
         width: 210px;
+        margin: 4px 0;
+    }
+
+    .title-row #Visual path, .title-row #Visual polyline {
+        stroke: #14cf93;
+    }
+
+    .col {
+        flex-direction: column;
     }
     
 
@@ -204,6 +227,10 @@ nav a {
     
     .title-row .hero-title {
         font-size: calc(11.60714vw + 40.85714px);
+    }
+
+    .title-svg svg {
+        width: calc(-17.85714vw + 267.14286px);
     }
         
 }
