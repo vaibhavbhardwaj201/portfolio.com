@@ -240,6 +240,10 @@ nav a {
 
 
     /* About Section */
+    #about {
+        margin-bottom: 20vh;
+    }
+    
     #about .about-content {
         color: #fff;
         font-family: "Gilroy-Medium";
@@ -318,6 +322,41 @@ nav a {
         bottom: -15%;
         right: 0;
         transform: translate3d(0px, -3.9026%, 0px) rotate(6.0001deg);
+    }
+
+    #about > a {
+        /* text-decoration: none; */
+        color: #fff;
+    }
+
+    .about-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vh;
+        gap: 2vw;
+    }
+
+    .about-contact .about-contact-icon {
+        width: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        /* margin-right: 3vw; */
+        background-color: #fff;
+        padding: 15px 25px;
+
+    } .about-contact-icon > i {
+        color: #000;
+        font-size: 16px;
+    }
+
+    .about-contact-text {
+        font-size: 12px;
+        color: #fff;
+        font-family: "Gilroy-Medium";
+        text-transform: uppercase;
     }
 
 

@@ -106,7 +106,37 @@
 
 
 
-    
+    /* About section */
+
+    #about {
+        margin-bottom: 8vh;
+        margin-top: 9vh;
+    }
+
+    #about .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        color: #414141;
+    }
+
+    .about-content .about-me-text {
+        font-size: calc(1.17188vw + 18px);
+    }
+
+    .about-card-container {
+        flex-basis: 50%;
+        height: 46vw;
+        width: 100%;
+        transform: translate(-15%,30%);
+    }
+
+    .about-card {
+        width: 70%;
+    }
 
 
 
