@@ -34,6 +34,10 @@ body {
     display: block;
 }
 
+.h-margin {
+    margin: 0 7vw;
+}
+
 nav {
     position: fixed;
     top: 5vh;
@@ -144,7 +148,7 @@ nav a {
 
 #hero {
         padding: 16vh 0 22vh;
-        margin: 0 7vw;
+        /* margin: 0 7vw; */
     }
 
     .title-row {
@@ -228,6 +232,101 @@ nav a {
     .title-row #Visual path, .title-row #Visual polyline {
         stroke: #14cf93;
     }
+
+    .o-mobile .right-info {
+        padding-left: 0;
+    }
+
+
+
+    /* About Section */
+    #about .about-content {
+        color: #fff;
+        font-family: "Gilroy-Medium";
+        text-transform: uppercase;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-content > div:nth-child(1) {
+        margin-top: 20vh;
+    }
+
+    .about-content .about-me-h {
+        font-size: 12px;
+        color: #a2a2a2;
+        margin-bottom: 3vh;
+    }
+
+    .about-content .about-me-text {
+        font-size: 31px;
+        line-height: 95%;
+        margin-bottom: 3vh;
+
+    }
+
+    .about-me-text .style {
+        color: #14cf93;
+        text-transform: capitalize;
+        font-family: "Mazius";
+    }
+
+    .about-card-container {
+        width: 100%;
+        /* flex-basis: 50%; */
+        height: 100vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-card {
+        text-align: center;
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .about-card img {
+        width: 100%;
+        filter: saturate(0);
+        transition: .4s;
+    }
+
+    .about-card:hover img {
+        filter: saturate(1);
+    }
+
+    .about-card-container .about-card:nth-child(1) {
+        top: -15%;
+        left: 0;
+        transform: translate3d(0px, -3.9026%, 0px) rotate(-6.0001deg);
+    }
+
+    .about-card-container .about-card:nth-child(2) {
+        top: 0;
+        /* left: 0; */
+        transform: translate3d(0px, -3.9026%, 0px) rotate(0deg);
+    }
+
+    .about-card-container .about-card:nth-child(3) {
+        bottom: -15%;
+        right: 0;
+        transform: translate3d(0px, -3.9026%, 0px) rotate(6.0001deg);
+    }
+
+
+
+
+
+
+
+
 
     .col {
         flex-direction: column;

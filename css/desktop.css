@@ -4,6 +4,10 @@
         background-color: #fcfaf8;
     }
 
+    .h-margin {
+    margin: 0 5vw;
+}
+
     nav {
         top: 6.5vh;
         padding: 0 5vw;
@@ -15,7 +19,7 @@
     }
 
     
-
+    /* Loading Screen */
     #splash-loader .animation-text {
         top: 6.4vw;
     }
@@ -25,10 +29,12 @@
     }
 
 
+
+
     /* Hero section for desktop */
     #hero {
         padding: 24vh 0 0;
-        margin: 0 5vw;
+        /* margin: 0 5vw; */
     }
 
     .title-row {
@@ -60,8 +66,6 @@
     .freelance-info .info-text {
         display: block;
     }
-
-    
 
     .freelance-info .info-text .info-text-design {
         display: inline-block;
@@ -99,6 +103,10 @@
     .title-svg svg {
         width: calc(22.46094vw + 37.5px);
     }
+
+
+
+    
 
 
 
