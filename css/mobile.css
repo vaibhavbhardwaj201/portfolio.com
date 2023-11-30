@@ -27,6 +27,7 @@ html {
 
 body {
     background-color: #151515;
+    font-family: "";
 }
 
 .o-mobile {
@@ -151,6 +152,10 @@ nav a {
         color: #fff;
     }
 
+    .hero-content .title-row:nth-child(3) {
+        margin-top: 6.5vh;
+    }
+
     .title-row .hero-title {
         font-size: 78px;
         font-family: "Gilroy-Medium";
@@ -185,6 +190,15 @@ nav a {
     .freelance-info .info-text .info-text-design {
         display: inline-block;
         font-family: 'Mazius';
+    }
+
+    .right-info .freelance-info {
+        margin-right: 10vw;
+        font-family: "Gilroy-Medium";
+    }
+
+    .right-info .local-time {
+        font-family: "Gilroy-Medium";
     }
 
     .right-info .local-time .local > span {

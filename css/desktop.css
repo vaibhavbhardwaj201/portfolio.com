@@ -4,14 +4,6 @@
         background-color: #fcfaf8;
     }
 
-    .o-mobile {
-        display: none;
-    }
-
-    .o-desktop {
-        display: block;
-    }
-
     nav {
         top: 6.5vh;
         padding: 0 5vw;
@@ -64,17 +56,12 @@
         text-transform: uppercase;
     }
 
-    .right-info .freelance-info {
-        margin-right: 10vw;
-        font-family: "Gilroy-Medium";
-    }
+    
     .freelance-info .info-text {
         display: block;
     }
 
-    .right-info .local-time {
-        font-family: "Gilroy-Medium";
-    }
+    
 
     .freelance-info .info-text .info-text-design {
         display: inline-block;
@@ -111,6 +98,20 @@
 
     .title-svg svg {
         width: calc(22.46094vw + 37.5px);
+    }
+
+
+
+
+
+    /* Important classes for mobile and desktop */
+
+    .o-mobile {
+        display: none;
+    }
+
+    .o-desktop {
+        display: block;
     }
 
 }
