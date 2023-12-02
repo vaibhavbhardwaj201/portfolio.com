@@ -468,6 +468,10 @@ nav a {
         transform: translateY(0);
     }
 
+    .work-projs .projs-card:hover img {
+        filter: saturate(0);
+    }
+
     .projs-card .overlay-info {
         z-index: 1;
         position: absolute;
