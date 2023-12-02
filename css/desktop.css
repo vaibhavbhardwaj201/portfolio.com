@@ -232,6 +232,7 @@
 
     .projs-card img {
         object-fit: cover;
+        scale: 1.3;
     }
 
 
