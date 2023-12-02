@@ -461,10 +461,18 @@ nav a {
         border-radius: 30px;
     }
 
+    .projs-card .overlay-info {
+        z-index: 88;
+        position: absolute;
+        left: 2vh;
+        bottom: 4vh;
+    }
+
     .projs-card img {
         width: 100%;
         transition: .4s;
         object-fit: cover;
+        filter: saturate(1);
         transform: scale(1.1);
         aspect-ratio: 1/1;
     }
