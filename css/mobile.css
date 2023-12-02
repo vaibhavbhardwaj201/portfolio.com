@@ -179,7 +179,7 @@ nav a {
 
     .title-row .right-info {
         display: flex;
-        padding-left: calc(11.32813vw - 35px);
+        padding-left: calc(9.32813vw - 35px);
         padding-top: 3.9%;
         white-space: nowrap;
         color: #a2a2a2;
@@ -191,9 +191,7 @@ nav a {
         display: none;
     }
 
-    .right-info .freelance-info {
-        margin-right: 10vw;
-    }
+ 
     .freelance-info .info-text {
         display: block;
     }
@@ -204,7 +202,7 @@ nav a {
     }
 
     .right-info .freelance-info {
-        margin-right: 10vw;
+        margin-right: 5vw;
         font-family: "Gilroy-Medium";
     }
 
@@ -382,9 +380,9 @@ nav a {
     }
 
     .work-container > svg {
-        stroke: #fff;
-        transform: translateY(-100%);
-        width: 22vw;
+        stroke: #a2a2a2;
+        transform: translateY(-110%);
+        width: 14%;
     }
 
     .work-container .work-services {
@@ -442,7 +440,7 @@ nav a {
 
     .work-title svg {
         width: 14vw;
-        stroke: #fff;
+        stroke: #a2a2a2;
         transform: translate(5vw,2vw) rotate(45deg);
     }
 
