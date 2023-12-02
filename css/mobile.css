@@ -459,13 +459,66 @@ nav a {
         position: relative;
         overflow: hidden;
         border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .work-projs .projs-card:hover .year,
+    .work-projs .projs-card:hover .role {
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .projs-card .overlay-info {
-        z-index: 88;
+        z-index: 1;
         position: absolute;
         left: 2vh;
-        bottom: 4vh;
+        bottom: 2vh;
+        font-family: "Gilroy-Medium";
+    }
+
+    .overlay-info .year {
+        padding: 1vh 2vh;
+        width: fit-content;
+        border-radius: 30px;
+        margin-bottom: 1vh;
+        font-size: 10px;
+        opacity: 0;
+        transition: .4s;
+        transform: translateY(-100%);
+    }
+
+    .overlay-info .role {
+        padding: 1vh 2vh;
+        width: fit-content;
+        border-radius: 30px;
+        margin-bottom: 1vh;
+        font-size: 10px;
+        opacity: 0;
+        transition: .4s;
+        transition-delay: .1s;
+        transform: translateY(-100%);
+    }
+
+    .overlay-info .p-name {
+        display: flex;
+    }
+
+    .p-name .name {
+        padding: 1.5vh 3vh;
+        width: fit-content;
+        font-size: 22px;
+        margin-right: 1vh;
+        border-radius: 30px;
+    }
+
+    .p-name .arrow {
+        border-radius: 50%;
+        padding: 1vh 1.8vh;
+    }
+
+    .p-name .arrow svg {
+        stroke: #000;
+        width: 22px;
     }
 
     .projs-card img {
@@ -486,6 +539,17 @@ nav a {
 
     .col {
         flex-direction: column;
+    }
+
+    .bg-white {
+        background-color: #fff;
+        color: #000;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
 
